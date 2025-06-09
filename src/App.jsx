@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Button from './Componets/Button';
 import Heading from './componets/Heading';
+import Checkbox from './componets/Checkbox';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,9 @@ function App() {
         <Button onClick={() => alert('¡Haz clic en el botón personalizado!')}>
           Haz clic en Mí
         </Button>
+        <Checkbox>
+          
+        </Checkbox>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
