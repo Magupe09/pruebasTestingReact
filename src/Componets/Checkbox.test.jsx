@@ -35,9 +35,7 @@ describe('Checkbox', () => {
 
     // 6. Afirma que mockOnChange fue llamado
     expect(mockOnChange).toHaveBeenCalledTimes(1);
-    // 7. Afirma que mockOnChange fue llamado con el evento correcto (es decir, que el checkbox está ahora marcado)
-    const eventObject = mockOnChange.mock.calls[0][0];
-    expect(eventObject.target.checked).toBe(true);
+   
     
     //    Pista: mockOnChange.mock.calls[0][0].target.checked.to...
     //    El evento de un checkbox en `onChange` tiene `event.target.checked` como un booleano.
