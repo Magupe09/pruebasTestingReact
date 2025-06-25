@@ -5,6 +5,7 @@ import './App.css'
 import Button from './Componets/Button';
 import Heading from './componets/Heading';
 import Checkbox from './componets/Checkbox';
+import ToggleContent from './componets/ToggleContent';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,8 +22,8 @@ function App() {
           Haz clic en Mí
         </Button>
         <Checkbox>
-          
         </Checkbox>
+        <ToggleContent />
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
